@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700');
+
+body {
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  color: #2C3E50;
+  background-color: #FFF;
+  font-size: 1.1em;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+.module {
+  margin-left: 20px;
+}
+
+#hostedBy, #listingDescription {
+  width: 450px;
+  font-size: 1rem;
+  margin-top: 50px;
+  margin-left: 3px;
+}
+
+#app {
+  margin-left: auto;
+}
